@@ -1,0 +1,114 @@
+/* Estilos generales */
+body {
+    font-family:'Goudy Stou', sans-serif, sans-serif;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+
+
+.general-1{
+    background-image: url(fondo2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200;
+    height: 200px;
+    padding: 70px 55px;
+}
+  h1 {
+    color: #b93209;
+    text-decoration:solid;
+    margin-right: 20px;
+  }
+
+  h2 {
+  color: #090f0c;
+  }
+  
+  /* Estilos de encabezado */
+  header {
+    background-color: #f143c6;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /*Estilos de subtitulos*/
+  .mision {
+    padding: 10px;
+    text-align: center;
+    text-shadow: #e208b3;
+    
+  }
+  .cuerpo-texto {
+    
+    text-align: center;
+    text-shadow: #f50909;
+    font-family:Kristen ITC, Helvetica, sans-serif;
+    text-justify: distribute;
+  }
+
+  
+  
+  /* Estilos de navegación */
+  nav {
+    background-color: #46363e;
+  } 
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: #be89a8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #061d1f;
+  }
+  
+  /* Estilos de sección de diseños */
+  #diseños {
+    padding: 40px;
+    text-align: center;
+    text-transform:inherit;
+  }
+  
+  .carro {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+  }
+  
+  .diseño img {
+    width: 300px;
+    height: auto;
+  }
+  
+  .diseño h3 {
+    margin-top: 10px;
+  }
+  
+  .diseño p {
+    color: #e20599;
+  }
+  
+ /* Estilos de pie de página */
+ footer {
+  background-color: #ca0e7c;
+  padding: 20px;
+  text-align: center;
+  color: #e9e2e2;
+}
+  
